@@ -1,0 +1,13 @@
+# 1. Клонируем (или инициализируем)
+git init
+git remote add origin https://github.com/ТВОЙ_ПОЛЬЗОВАТЕЛЬ/foundation-calculator.git
+
+# 2. Добавляем файлы
+git add .
+
+# 3. Коммитим
+git commit -m "initial commit: foundation calculator with sketch"
+
+# 4. Пушим
+git branch -M main
+git push -u origin main
